@@ -1,6 +1,6 @@
 # Library Management System - Flask Web Application with SQLite
 
-![CI](https://github.com/<MichaelJ51>/<cisc327-library-management-a2-8933>/actions/workflows/python-tests.yml/badge.svg)
+![CI](https://github.com/MichaelJ51/cisc327-library-management-a2-8933/actions/workflows/python-tests.yml/badge.svg)
 
 ## Overview
 
