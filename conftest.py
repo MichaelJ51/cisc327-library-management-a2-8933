@@ -1,4 +1,4 @@
-# tests/conftest.py
+# conftest.py
 import os
 import pytest
 import sqlite3
