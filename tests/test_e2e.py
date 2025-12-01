@@ -18,7 +18,7 @@ def test_add_book_appears_in_catalog(page: Page):
     page.fill("input[name='title']", "E2E Testing Book")
     page.fill("input[name='author']", "Michael Jin")
 
-    # ← THIS USES THE SHARED ISBN
+   
     page.fill("input[name='isbn']", TEST_ISBN)
 
     page.fill("input[name='total_copies']", "5")
@@ -34,13 +34,13 @@ def test_add_book_appears_in_catalog(page: Page):
 
 def test_borrow_book_updates_availability(page: Page):
 
-    # (Re)add same book because the DB persists)
+    
     page.goto(f"{BASE_URL}/add_book")
 
     page.fill("input[name='title']", "E2E Testing Book")
     page.fill("input[name='author']", "Michael Jin")
 
-    # ← SAME ISBN HERE TOO
+
     page.fill("input[name='isbn']", TEST_ISBN)
 
     page.fill("input[name='total_copies']", "5")
