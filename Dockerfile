@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 5000
 
 # Run your Flask app
-# app.py is in the root in your screenshot, so we call it directly
+# app.py is in the root in your screenshot so we call it directly
 CMD ["python", "app.py"]
